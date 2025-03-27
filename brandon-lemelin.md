@@ -4,13 +4,13 @@
 
 ### Est-il lisible?
 
-Le code est lisible, les noms des fonctions sont clairs et expliquent bien leur fonctionnement.
+Le code est lisible malgré avoir un seul gros component et un plus petit component, les noms des fonctions sont clairs et expliquent bien leur fonctionnement.
 
 ### Le code est-il conforme aux bonnes pratiques de programmation?
 
 #### Code propre
 
-Les noms sont significatifs, quelques **répétitions** lors du "_setGameToUpdate_" et "_setGameToDuplicate_", le code est clair et simple, le code est bien indenté.
+Les noms sont significatifs, quelques **répétitions** lors du "_setGameToUpdate_" et "_setGameToDuplicate_", le code est clair et simple, le code est bien indenté, le component Store aurait pu être diviser en plusieurs petits components pour rendre le code plus lisible et moins lourd, le code est également très peu séparé ce qui le rend lourd à lire et parfois compliqué à comprendre.
 
 #### Gestion des erreurs
 
